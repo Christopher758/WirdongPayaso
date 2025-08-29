@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Wirdong Payaso</title>
+  <link rel="stylesheet" href="styles/style.css" />
+  <link rel="icon" type="image/x-icon" href="favicon/WirdongPayaso.ico">
+</head>
+<body class="light">
+
+  <!-- Header - Always Visible -->
+  <header>
+    <h3>Wirdong Payaso's Website!</h3>
+    <div class="under-construction">
+      <span>This website is under construction, expect some bugs or errors... Contains 14+ content (Swearing and stuff)</span>
+    </div>
+  </header>
+
+  <!-- Menu & Theme Toggle Buttons -->
+  <button class="menu-toggle" aria-label="Open menu">☰</button>
+  <button class="theme-toggle" aria-label="Toggle dark mode">◐</button>
+
+<!-- Sidebar -->
+<div id="mySidebar" class="sidebar">
+  <button class="close-btn" aria-label="Close menu">×</button>
+
+  <!-- Homepage -->
+  <p class="section-header">Homepage</p>
+  <hr>
+  <a href="#" data-section="home">Home</a>
+
+  <!-- Whereabouts (Collapsible) -->
+  <p class="section-header collapsible">Whereabouts</p>
+  <hr>
+  <div class="section-content">
+    <a href="#" data-section="about">About Johnny</a>
+    <a href="#" data-section="books">Books I Wrote</a>
+    <a href="#" data-section="projects">Projects</a>
+    <a href="#" data-section="faqs">FAQs</a>
+    <a href="#" data-section="time">Time</a>
+  </div>
+
+  <!-- Writing -->
+  <p class="section-header collapsible">Writing</p>
+  <hr>
+  <div class="section-content">
+    <a href="#" data-section="blog">Blog</a>
+    <a href="#" data-section="tutorials">Tutorials</a>
+  </div>
+
+  <!-- Other Stuff -->
+  <p class="section-header collapsible">Other stuff</p>
+  <hr>
+  <div class="section-content">
+    <a href="#" data-section="trivias">Trivia</a>
+    <a href="#" data-section="changelog">Update Logs</a>
+  </div>
+</div>
+
+  <!-- Main Content -->
+  <main>
+    <section id="home" class="section active">
+      <div class="container">
+        <h3>Hi folks! I'm <b class="name">Wirdong Payaso</b> and<br>
+          welcome to my site</h3>
+        
+        <br>
+        
+      <p>
+        To be honest, there's nothing in here.
+        This is just my personal website, and pretty much it.
+        If you want, you can explore this place freely—since this website
+        is still under construction anyway.
+        <br><br>
+        I do procastinate stuff, yap stuff, and do stuff!
+        <br><br>
+        This website is built using Acode for android.
+      </p>
+      </div>
+    </section>
+    
+    <section id="about" class="section">
+  <div class="container">
+    <h2>About Johnny</h2>
+
+    <!-- Introduction -->
+    <p>
+      Hi! My name is Johnny, I'm a 17-year-old beginner web developer, writer, and game developer from the Philippines.<br>
+      I'm currently a Grade 12 student who likes to learn new things.<br>
+      My interest in coding began when I was a kid — people introduced me to computers, and I found it fun, though a bit challenging.<br>
+      I like walking although, I hate hot temperatures here.
+    </p>
+
+    <!-- Device Info - ONLY in About Me -->
+    <div class="device-info">
+      <h3>Device I'm using</h3>
+      <p>
+        [device] Tecno Spark 20 Pro 5G<br>
+        [chipset] Dimensity 6080<br>
+        [ram] 8GB<br>
+        [storage] 256GB<br>
+        [os] Android 14
+      </p>
+    </div>
+    <div class="device-info">
+      <h3>Laptop</h3>
+      <p>I still don't have one</p>
+    </div>
+    <div class="device-info">
+      <h3>Shitbox (PC)
+        <p>If only using school PC were allowed.<br>
+          Bad news: I don't have a shitbox.
+        </p>
+      </h3>
+    </div>
+  </div>
+</section>
+    
+    <section id="faqs" class="section">
+  <div class="container">
+    <h2>Bunch of FAQs</h2>
+
+    <!-- FAQ 1 -->
+    <div class="faq-item">
+      <h3>1. Why didn't you use a web framework?</h3>
+      <p>The reason I didn't use one is because I don’t have a laptop or even a shitbox to begin with. I'm building this on my phone and plain HTML/CSS/JS.</p>
+    </div>
+
+    <!-- FAQ 2 -->
+    <div class="faq-item">
+      <h3>2. Why was the site discontinued last year?</h3>
+      <p>5 main reason: I lost motivation, life, school, other stuff, and most importantly I lost the original file in my original phone. But thanks to google drive that I manage to bring back some of the remains. Now, I'm rebuilding this site.</p>
+    </div>
+
+    <!-- FAQ 3 -->
+    <div class="faq-item">
+      <h3>3. Why the plain design?</h3>
+      <p>I wanted it to be responsive, minimal, and fast — especially on mobile. Fancy frameworks slow things down. This way, it works on any device, even a budget phone like mine. Don’t worry — I’ll improve it over time. But for now, I'll stick with clean > flashy.</p>
+    </div>
+
+    <!-- FAQ 4 -->
+    <div class="faq-item">
+      <h3>4. Can I refer to or quote content from your site?</h3>
+      <p>Sure — as long as you give credit. Just don’t be a jerk. There are a few cases where I won’t allow it:</p>
+      <ul>
+        <li>If you're training a large language model (LLM)</li>
+        <li>If you're turning it into an NFT</li>
+        <li>If you're mocking it just to laugh (criticism is fine — hate isn’t)</li>
+        <li>If you're using it for anything unethical or exploitative</li>
+      </ul>
+      <p>This is my space. Respect it, and we’re good.</p>
+    </div>
+  </div>
+</section>
+    
+    <section id="time" class="section">
+  <div class="container">
+    <h2>Current Time</h2>
+    <p>@ philippine standard time</p>
+    <div class="time-display">
+      Loading...
+    </div>
+    <div class="date-display">
+      Loading date...
+    </div>
+  </div>
+</section>
+    
+    
+    <section id="blog" class="section">
+  <div class="container">
+    <h2>Blog</h2>
+    <p>Thoughts, rants, and updates.</p>
+    <div id="blog-posts">
+      <!-- Posts will load here -->
+    </div>
+  </div>
+</section>
+
+<section id="tutorials" class="section">
+  <div class="container">
+    <h2>Writing & Tutorials</h2>
+    <p>Long-form guides, thoughts, and deep dives — written by me.</p>
+
+    <a href="tutorials/Tutorial.html">tutorials</a>
+  </div>
+</section>
+
+    <section id="books" class="section">
+      <h2>My Wattpad Works</h2>
+
+      <article>
+        <h3><a href="https://www.wattpad.com/story/396142937" target="_blank" class="book-button">Si Dazai ay isang duwag</a></h3>
+      </article>
+
+      <article>
+        <h3><a href="https://www.wattpad.com/story/396467179" target="_blank" class="button">Ang paa kong abstract</a></h3>
+      </article>
+
+      <article>
+        <h3><a href="https://www.wattpad.com/story/396943323" target="_blank" class="button">Fly Little Dove (ITHINKOFODDOREVEN #1)</a></h3>
+      </article>
+
+      <h2>Series I Made So Far</h2>
+      <article>
+        <h3><a href="https://www.wattpad.com/list/1736892611" target="_blank" class="button">ITHINKOFODDOREVEN</a></h3>
+      </article>
+    </section>
+
+    <section id="projects" class="section">
+      <h2>Projects So Far</h2>
+      <ul>
+        <li><a href="projects/Sisyphus-Simulator/Sisyphus-launcher.html" onclick="lauchSisyphus(event)" class="button">Sisyphus Simulator</a></li>
+        <li><a href="projects/tetris/tetris.html" class="button">Tetris</a></li>
+      </ul>
+    </section>
+
+    <section id="trivias" class="section">
+      <h2>Trivia</h2>
+      <p>Water is wet :p</p>
+    </section>
+    
+    <section id="changelog" class="section">
+  <div class="container">
+    <h2>Changelogs</h2>
+    <cite>This website was still a work in progress, and working on this website has become my hobby.</cite>
+
+    <!-- Posts will be injected here by JS -->
+    <div id="changelog-content">
+      <!-- Dynamic content goes here -->
+    </div>
+  </div>
+</section>
+    
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    &copy; 2025 Wirdong Payaso. All rights reserved.<br>
+    Built using Acode by Foxbiz Software
+  </footer>
+
+  <!-- Scripts -->
+  <script src="scripts/scripts.js"></script>
+</body>
+</html>

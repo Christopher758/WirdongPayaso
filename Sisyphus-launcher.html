@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sisyphus Simulator</title>
+  <link rel="stylesheet" href="styles/sisyphus-simulator-style.css" />
+</head>
+<body>
+
+  <!-- Main Button -->
+  <div class="container">
+    <h1>SISYPHUS SIMULATOR</h1>
+    <p>From an old meme of 2023, peak era.</p>
+    <p>A clicker game lol.</p>
+    <button class="play-btn" onclick="launchSisyphus(event)">▶ PLAY</button>
+  </div>
+
+  <!-- Loading Screen -->
+  <div id="sisyphus-loader" style="display:none;">
+    <div class="loader-content">
+      <h2>[SISYPHUS v1.0]</h2>
+      <p>Initializing simulation...</p>
+      <div class="progress-bar-outer">
+        <div class="progress-bar-inner"></div>
+      </div>
+      <div class="loader-messages">
+  <p id="loader-message" class="loader-message"></p>
+  <p id="loader-percent" class="loader-percent">[0%]</p>
+</div>
+    </div>
+  </div>
+
+  <!-- Script -->
+  <script src="Sisyphus-Launcher.js"></script>
+</body>
+</html>

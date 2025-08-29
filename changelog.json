@@ -1,0 +1,19 @@
+[
+  {
+    "title": "Version 2.0 Released",
+    "date": "August 12, 2025",
+    "content": "Added dark mode toggle.\nFixed menu scroll issue.\nImproved blog loading."
+  },
+  
+  {
+    "title": "Version 1.1 Released",
+    "date": "July 30, 2025",
+    "content": "Added projects, time, FAQs, trivia, etc. \n Mobile responsiveness added and bug had been fixed."
+  },
+  
+  {
+    "title": "Version 1.0 - Continuation",
+    "date": "July 7, 2025",
+    "content": "The website began it's continuation with major updates."
+  }
+]
